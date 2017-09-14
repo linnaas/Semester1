@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 2</title>
+</head>
+<body>
+<form action="2.php" method="post"> <!-- Selve formen som blir sendt til "2.php". action = navnet på målfilen, method er måten vi bruker for å sende informasjon -->
+Fornavn: <input type="text" name="fornavn"><br><!-- Input felt med navn "fornavn" -->
+Etternavn: <input type="text" name="etternavn"><br> <!-- Input felt med navn "etternavn" -->
+Alder: <input type="text" name="alder"><br><!-- Input felt med navn "alder" -->
+<input type="submit" name="submit" value="Send"><!-- "Submit" knapp som sender informasjonen i formen til 2.php da man trykker på den "type=submit" er viktig-->
+<input type="reset" name="reset" value="Nullstill"><!-- Reset knapp for å nullstille at som er innenfor <form> - taggen. "type=reset" er viktig -->
+
+
+</form>
+</body>
+</html>
