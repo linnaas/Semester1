@@ -19,14 +19,11 @@ $fornavn=$_POST["fornavn"];
 $etternavn=$_POST["etternavn"];
 $navn=$fornavn." ".$etternavn. "\n";
 
-$handle = fopen("navn.txt", "a+"); // Åpne tekstfilen, "a+" (Read/Write. Preserves file content by writing to the end of the file)
-fwrite($handle, $navn); // Skriver variablen $student på ny linje
-fclose($handle); // Lukk filen
+$tekstfil = fopen("navn.txt", "a+"); // Åpne tekstfilen, "a+" (Read/Write. Preserves file content by writing to the end of the file)
+fwrite($tekstfil, $navn); // Skriver variablen $student med linjeskift. ("\n")
+fclose($tekstfil); // Lukk filen
+print("$navn er nå registrert.");
 
-$readin = file("navn.txt");
-foreach ($readin as $fname) {
-  echo $fname.",";
-}
 
 }
 
