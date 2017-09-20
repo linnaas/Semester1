@@ -13,7 +13,7 @@
 </html>
 
 <?php
-if(isset($_POST["submit"])){
+if(isset($_POST["submit"])){ // Alt her er forklart i oppgave 4.
 $fagkode = $_POST["fagkode"];
 $errors = array();
 if(!$fagkode){

@@ -13,7 +13,7 @@
 </html>
 
 <?php
-if(isset($_POST["submit"])){
+if(isset($_POST["submit"])){ // Her bruker vi så si alt det samme som fra oppgave 2.
 $postnr = $_POST["postnr"];
 $errors = array();
 if(!$postnr){
