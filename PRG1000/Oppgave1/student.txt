@@ -1,9 +1,0 @@
-ph;Petter;Hanssen;WEB1;
-gb;Geir;Bjarvin;PRG1;
-mj;Marius;Johannessen;WEB1;
-sm;Shegaw;Mengiste;SYS1;
-on;Ola;Nordmann;PRG1;
-nl;Nora;Lund;WEB2;
-fn;Filip;Nilsen;INF2;
-ph;Peter;Hull;SYS2;
-wf;Willie;Fletcher;WEB1;
