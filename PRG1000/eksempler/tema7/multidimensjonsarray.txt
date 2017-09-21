@@ -1,0 +1,23 @@
+Beskrivelse på multidimensjonsarray brukt i "visoppgave.php"
+Linje 6: Henter ut all teksten i tekstfilen "oppgave.txt" og lagrer det i variablen $data.
+Linje 7: For hvert linjeskift i variablen "$data" så deler vi inn i et array, dette arrayet lagrer vi igjen med samme variabel "$data"
+Linje 8: For å "filtrere" arrayet for å forsikre oss at vi ikke har noen tomme verdien så bruker vi funksjonen "array_filer" på arrayet $data
+Linje 9: Definerer et nytt array, dette er arrayet som blir inne i vårt første array, derfor kalles det multidimensjons array. Jeg kalte dette arrayet for $final_array bare for å holde styr på det, men du kan sefølgelig kalle det hva du vil.
+Linje 10: Her referer vi til vårt første array "$data" som ble fylt på linje 7. Gå igjennom arrayet $data og lagre det i et nytt array $verdi, hver gang vi finner et nytt element i array så skal koden mellom {} kjøres.
+Linje 11: Her skal vi fylle vårt $final_array. Her bruker vi explode funksjonen for å dele opp alt i array $verdi på tegnet ";"
+
+Vårt multidimensjons array blir nå slik:
+-----------------------------------------------------
+Array 0 =>
+          Array 0 => INF1000, 1 => 1, 2 => 2016-11-01
+Array 1 =>
+          Array 0 => INF1000, 1 => 2, 2 => 2016-12-01
+Array 2 =>
+          Array 0 => PRG1000. 1 => 1, 2 => 2016-11-01
+-----------------------------------------------------
+Så hvis vi foreksempel skal "print" første fagkode så bruker vi: $final_array[0][0];
+
+Array[x][y]
+
+Array key "x" er det første arrayet. Denne velger hvilken "linje" med informasjon vi skal ha. Her selve settet med informasjon vi skal bruke. Hvis du ser i tekstfilen oppgave.txt så vil array key [0] være informasjonssett på linje 1, Array key[1] vil være informasjonssettet på linje 2 osv...
+Array key "y" er det andre arrayet. Her velger vi hvilken del av informasjonen vi skal hente ut. Her ligger hver enkelt informasjon som Fagkode, oppgavenr og frist.
