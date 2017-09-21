@@ -55,10 +55,8 @@ if(isset($_POST["submit"])){
 			</tr>
 <?php
 	$length = count($final_array);
-	$antall = 0;
 	for ($i = 0; $i < $length; $i++){
 		if($klasseliste == $final_array[$i][3]){
-			$antall ++;
 			echo '<tr><td>'.$final_array[$i][0]."</td><td>".$final_array[$i][1]."</td><td>".$final_array[$i][2]."</td><td>".$final_array[$i][3]."</td></tr>"; // Print ut hver student med riktig klassekode
 		}
 	}
