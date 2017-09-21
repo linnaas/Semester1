@@ -87,7 +87,7 @@ if(isset($_POST["submit"])){
 	print("Følgende student er nå registrert<br>"); // Tilbakemelding at student er registrert
 	print("<table border='1'; style='border-collapse: collapse'><tr><td><strong>Brukernavn</strong></td><td><strong>Fornavn</strong><td><strong>Etternavn</strong><td><strong>Klassekode</strong></tr></th>");
 	print("<tr><td width='200px;'>$brukernavn</td><td td width='200px;'>$fornavn</td><td td width='200px;'>$etternavn</td><td td width='200px;'>$klasse</td></tr></table>");// Hvilken student ble registrert?
-	print("<br><a href=showstudent.php>Vis alle studenter</a>"); //Link til index.html
+	print("<br><a href=visstudenter.php>Vis alle studenter</a>"); //Link til index.html
 	} else {
 		print("<br>Vennligst rett feilene over");
 	}

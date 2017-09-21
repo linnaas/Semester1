@@ -51,7 +51,7 @@ if (isset($_POST["submit"])){
 		print("Følgende klasse er nå registrert<br>"); // Tilbakemelding at student er registrert
 		print("<table border='1'; style='border-collapse: collapse'><tr><td><strong>Klassekode</strong></td><td><strong>Klassenavn</strong></tr></th>");
 		print("<tr><td width='200px;'>$klassekode</td><td td width='200px;'>$klassenavn</td></tr></table>");// Hvilken student ble registrert?
-		print("<br><a href=showclass.php>Vis alle klasser</a>"); //Link til index.html
+		print("<br><a href=visklasser.php>Vis alle klasser</a>"); //Link til index.html
 	} else {
 		print("<br>Vennligst rett feilene over");
 	}
