@@ -3,13 +3,13 @@
 <article class="content">
   <h2>Vis fag</h2>
   <?php
-                  $data = file_get_contents('fag.txt');
-                  $data = explode("\n", $data);
-                  $data = array_filter($data);
-                  $final_array = array();
-                  foreach($data AS $verdi){
-                      $final_array[] = explode(';', $verdi);
-                  }?>
+    $data = file_get_contents('fag.txt');
+    $data = explode("\n", $data);
+    $data = array_filter($data);
+    $final_array = array();
+    foreach($data AS $verdi){
+        $final_array[] = explode(';', $verdi);
+    }?>
   <table border="1" style="border-collapse: collapse">
     <tbody>
       <tr>

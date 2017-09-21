@@ -8,11 +8,11 @@ Linje 11: Her skal vi fylle vårt $final_array. Her bruker vi explode funksjonen
 
 Vårt multidimensjons array blir nå slik:
 -----------------------------------------------------
-Array 0 =>
+Array 0 =>  "INFORMASJON PÅ LINJE 1 I OPPGAVE.TXT"
           Array 0 => INF1000, 1 => 1, 2 => 2016-11-01
-Array 1 =>
+Array 1 =>  "INFORMASJON PÅ LINJE 2 I OPPGAVE.TXT"
           Array 0 => INF1000, 1 => 2, 2 => 2016-12-01
-Array 2 =>
+Array 2 =>  "INFORMASJON PÅ LINJE 3 I OPPGAVE.TXT"
           Array 0 => PRG1000. 1 => 1, 2 => 2016-11-01
 -----------------------------------------------------
 Så hvis vi foreksempel skal "print" første fagkode så bruker vi: $final_array[0][0];
