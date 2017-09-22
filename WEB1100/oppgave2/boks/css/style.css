@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+#wrapper {
+  margin: 0 auto;
+  box-sizing: content-box;
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.boks{
+  height: 96px;
+  width: 96px;
+  border: 1px solid black;
+  color: white;
+  float: left;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.odd {
+background-color:red;
+}
+.even{
+background-color:blue;
+}
