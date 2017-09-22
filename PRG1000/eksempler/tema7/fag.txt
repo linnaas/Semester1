@@ -1,3 +1,4 @@
 INF1000;Informasjonssystemer;Shegaw Mengiste
 PRG1000;Programmering 1;Geir Bjarvin
 SYS1000;Systemutvikling;Marius Johannessen
+WEB1100;Webutvikling og HCI;Marius
