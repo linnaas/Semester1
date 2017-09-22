@@ -8,7 +8,11 @@
   font-size: 20px;
   box-shadow: 1px 1px 5px #888888;
 }
-
+#topptekst{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
 input {
     width: 100%;
     padding: 12px 20px;
@@ -23,8 +27,8 @@ input {
 
 }
 input:focus, textarea:focus{
-    border: 2px solid green;
-    outline:none;
+   outline-color: green;
+   background: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
 }
 
 
@@ -55,4 +59,18 @@ textarea {
 }
 #submit:hover {
     background-color: #45a049;
+}
+#reset {
+  width: 100%;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #888888;
+}
+#reset:hover {
+    background-color: #da190b;
 }

@@ -10,12 +10,16 @@
 </head>
 <body>
 <div id="formwrapper">
-  <form action="" method="GET">
+  <h3 id="topptekst">Send oss en melding</h3>
+  <form action="" method="POST">
     <label for="navn">Navn:</label><input type="text" name="navn" id="navn" placeholdeR="&#xf2c0;"><br>
     <label for="epost">Epost:</label><input type="email" name="epost" id="epost" placeholder="&#xf003;"><br>
     <label for="melding">Melding:</label><textarea type="text" name="melding" id="melding" placeholder="&#xf0e5;"></textarea><br>
     <button type="submit" id="submit">
       Send<i class="fa fa-paper-plane"></i>
+    </button>
+    <button type="reset" id="reset">
+      Nullstill<i class="fa fa-trash-o"></i>
     </button>
   </form>
 </div>
