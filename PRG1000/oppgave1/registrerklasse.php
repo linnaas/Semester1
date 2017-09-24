@@ -35,9 +35,9 @@ if (isset($_POST["submit"])){
 	if(!$klassekode){
 		$lovligklassekode = false;
 		print("Klassekode er ikke fylt ut<br>");
-	} else if (strlen($klassekode) !=4 ){
+	} else if (strlen($klassekode) !=3 ){
 		$lovligklassekode = false;
-		print("Klassekoden skal bestå av 4 tegn<br>");
+		print("Klassekoden skal bestå av 3 tegn<br>");
 	}
 	if(!$klassenavn){
 		$lovligklassenavn = false;
